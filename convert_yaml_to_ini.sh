@@ -1,0 +1,1 @@
+rosrun camera_calibration_parsers convert calibration_config/3-12A/3-12A.yaml calibration_config/3-12A/3-12A.ini
