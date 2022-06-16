@@ -1,0 +1,1 @@
+rosrun camera_calibration cameracalibrator.py image:=/usb_cam/image_raw camera:=/usb_cam
