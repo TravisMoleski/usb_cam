@@ -1,0 +1,26 @@
+image_width: 3840
+image_height: 2160
+camera_name: head_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [3897.4563 ,    0.     , 2604.5336 ,
+            0.     , 3901.54253, 1346.25579,
+            0.     ,    0.     ,    1.     ]
+camera_model: fisheye
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.425545, 0.148474, -0.010656, -0.005938, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [3242.58667,    0.     , 2756.08259,    0.     ,
+            0.     , 3760.93921, 1354.00822,    0.     ,
+            0.     ,    0.     ,    1.     ,    0.     ]
