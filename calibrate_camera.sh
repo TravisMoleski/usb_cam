@@ -1,1 +1,1 @@
-rosrun camera_calibration cameracalibrator.py image:=/usb_cam/image_raw camera:=/usb_cam
+rosrun camera_calibration cameracalibrator.py  --disable_calib_cb_fast_check --size 10x7 --square 0.60 image:=/usb_cam/image_raw camera:=/usb_cam
